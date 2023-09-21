@@ -193,6 +193,86 @@ export const cssQAs = [
     id: 18,
     question:
       "What are the advantages/disadvantages of using CSS preprocessors?",
+    answer:
+      "Advantages: 1. Variables and reusability. 2. Nesting for cleaner code. 3. Mixins for efficient styling. 4. Functions and operations. 5. Improved organization.       Disadvantages: 1. Learning curve. 2. Extra compilation step. 3. Overuse of features can lead to complex code. 4. Potential for large CSS output. 5. Limited browser support for certain features.",
+  },
+  {
+    id: 19,
+    question:
+      "  What are the different ways to visually hide content (and make it available only for screen readers)  ",
+    answer:
+      "To visually hide content for screen readers: 1. **`position: absolute;`**: Position off-screen with CSS. 2. **`width: 0; height: 0;`**: Set width and height to zero. 3. **`clip-path`**: Clip content to an invisible area. 4. **`text-indent: -9999px;`**: Indent text far off-screen. 5. **`opacity: 0;`**: Make content transparent but readable. 6. **`visibility: hidden;`**: Hide content but keep layout space. 7. **`aria-hidden='true'`**: Use ARIA attribute for accessibility.",
+  },
+  {
+    id: 20,
+    question:
+      "What's the difference between 'resetting' and 'normalizing' CSS?",
+    answer:
+      "'Resetting' CSS aims to remove default browser styles, setting all elements to a consistent baseline. 'Normalizing' CSS aims to make default styles consistent across different browsers by preserving useful styles while resetting others. Resetting is more aggressive, while normalizing is more balanced.",
+  },
+  {
+    id: 21,
+    question: "Are you familiar with styling SVG?",
+    answer:
+      "Yes, I am familiar with styling SVG (Scalable Vector Graphics) using CSS to control colors, fills, strokes, and other visual properties.SVG (Scalable Vector Graphics) is an XML-based vector image format used for creating two-dimensional vector graphics that are both scalable and resolution-independent.",
+  },
+  {
+    id: 22,
+    question:
+      "Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy? ",
+    answer:
+      "Coding a website to be responsive means designing it to adapt to various screen sizes. A mobile-first strategy starts with designing for mobile devices and progressively enhancing for larger screens. Mobile-first prioritizes smaller screens from the outset.",
+  },
+  {
+    id: 23,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 24,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 25,
+    question: "",
+    answer: "",
+  },
+
+  {
+    id: 26,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 27,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 28,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 29,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 30,
+    question: "",
+    answer: "",
+  },
+
+  {
+    id: 31,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 32,
+    question: "",
     answer: "",
   },
 ];
