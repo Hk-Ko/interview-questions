@@ -225,53 +225,147 @@ export const cssQAs = [
   },
   {
     id: 23,
-    question: "",
-    answer: "",
+    question:
+      "Can you give an example of an `@media` property other than `screen`?",
+    answer:
+      "Certainly. Another example of an `@media` property is `print`, used for defining styles specifically for printed pages.",
   },
   {
     id: 24,
-    question: "",
-    answer: "",
+    question:
+      "Describe what you like and dislike about the CSS preprocessors you have used",
+    answer:
+      "Likes: Variables, nesting, mixins, organization. Dislikes: Learning curve, compilation step, complexity, larger output, limited browser support.",
   },
   {
     id: 25,
-    question: "",
-    answer: "",
+    question: "Have you ever worked with retina graphics?",
+    answer:
+      "Retina graphics are high-resolution images designed for displays with high pixel density, like Apple's Retina displays.",
   },
 
   {
     id: 26,
-    question: "",
-    answer: "",
+    question:
+      "Have you used or implemented media queries or mobile-specific layouts/CSS?",
+    answer:
+      "An example would be transforming a stacked pill navigation into a fixed-bottom tab navigation beyond a certain breakpoint.",
   },
   {
     id: 27,
-    question: "",
-    answer: "",
+    question: "What are some of the 'gotchas' for writing efficient CSS?",
+    answer:
+      "Efficient CSS: Avoid `!important`, limit nesting, be mindful of specificity, optimize code, use preprocessing for organization, minimize reflows/repaints, compress and cache stylesheets for speed.",
   },
   {
     id: 28,
-    question: "",
-    answer: "",
+    question:
+      "What are the various clearing techniques and which is appropriate for what context?",
+    answer:
+      "Clearing techniques in CSS include `clear: both;` for clearing floated elements, and `overflow: hidden;` to clear floats and create a new block formatting context. Use them appropriately based on your layout needs.",
   },
   {
     id: 29,
-    question: "",
-    answer: "",
+    question:
+      "What existing CSS frameworks have you used locally, or in production?",
+    answer: "Bootstrap,Tailwind Css",
   },
-  {
-    id: 30,
-    question: "",
-    answer: "",
-  },
+];
 
+export const javaQAs = [
   {
-    id: 31,
+    id: 1,
+    question: "Explain how prototypal inheritance works",
+    answer:
+      "Prototypal inheritance in JavaScript lets objects inherit properties and methods from a prototype object, creating a chain for sharing behavior and data.",
+  },
+  {
+    id: 2,
     question: "",
     answer: "",
   },
   {
-    id: 32,
+    id: 3,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 4,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 5,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 6,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 7,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 8,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 9,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 10,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 11,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 12,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 13,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 14,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 15,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 16,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 17,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 18,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 19,
     question: "",
     answer: "",
   },
