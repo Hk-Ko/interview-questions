@@ -46,7 +46,7 @@ const App = () => {
         </div>
 
         <div className="mt-10">
-          <h1 className="text-xl font-semibold">CSS Q&A</h1>
+          <h1 className="text-xl font-semibold">JS Q&A</h1>
           <div className="flex flex-col gap-5">
             {javaQAs.map((qas, index) => (
               <div key={qas.id} className="flex w-full h-full">

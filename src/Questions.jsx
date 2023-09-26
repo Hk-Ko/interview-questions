@@ -281,73 +281,92 @@ export const javaQAs = [
   },
   {
     id: 2,
-    question: "",
-    answer: "",
+    question: "Explain how `this` works in JavaScript",
+    answer:
+      "In JavaScript, `this` refers to the current execution context, often representing the object that the function or method is called on. Its value depends on how a function is invoked:  1. In a regular function, `this` typically refers to the global object (e.g., `window` in a browser). 2. In a method (a function within an object), `this` refers to the object that owns the method.3. In an event handler, `this` refers to the DOM element that triggered the event. 4. When explicitly set using functions like `bind`, `call`, or `apply`, `this` can be defined explicitly. The value of `this` can change dynamically depending on the context of its execution.",
   },
   {
     id: 3,
-    question: "",
-    answer: "",
+    question:
+      "What are the differences between variables created using `let`, `var` or `const`?",
+    answer:
+      "- `var`: Function-scoped, can be redeclared and updated. - `let`: Block-scoped, can be updated but not redeclared.- `const`: Block-scoped, cannot be redeclared or updated (except for objects and arrays, where their properties can be modified).",
   },
   {
     id: 4,
-    question: "",
-    answer: "",
+    question: "What is the difference between `==` and `===`?",
+    answer:
+      "`==` compares values with type coercion, while `===` compares values and types without coercion. `===` is more strict and often recommended for avoiding unexpected type-related issues.",
   },
   {
     id: 5,
-    question: "",
-    answer: "",
+    question:
+      "What's the difference between a variable that is: `null`, `undefined` or undeclared?",
+    answer:
+      "- `null`: A deliberate absence of value, assigned by the developer. - `undefined`: A variable declared but not assigned a value, or a missing function argument. - Undeclared: A variable that has not been declared with `var`, `let`, or `const`. Accessing it throws a ReferenceError.",
   },
   {
     id: 6,
-    question: "",
-    answer: "",
+    question: "What's the difference between `.call` and `.apply`?",
+    answer:
+      "`.call` and `.apply` are both JavaScript methods used to invoke functions with a specific `this` context and pass arguments. The key difference is in how you provide arguments: - `.call` takes arguments as a comma-separated list. - `.apply` takes arguments as an array or array-like object. In summary, choose `.call` for individual arguments and `.apply` for an array of arguments.",
   },
   {
     id: 7,
-    question: "",
-    answer: "",
+    question: "Can you offer a use case for the new arrow => function syntax?",
+    answer:
+      "Arrow functions are useful for maintaining the context of `this` within a function, making them particularly handy in event handlers, callbacks, and when defining functions within methods to avoid issues with changing `this`.",
   },
   {
     id: 8,
-    question: "",
-    answer: "",
+    question: "Explain `Function.prototype.bind`",
+    answer:
+      "`Function.prototype.bind` is a method in JavaScript used to create a new function with a specified `this` value and initial arguments. It allows you to set a fixed `this` context for a function, making it useful for event handlers, callbacks, or methods that need a consistent `this` value.",
   },
   {
     id: 9,
-    question: "",
-    answer: "",
+    question: "Explain 'hoisting'",
+    answer:
+      "Hoisting in JavaScript is the behavior where variable and function declarations are moved to the top of their containing scope during compilation, allowing you to use them before they are formally declared in the code. However, only declarations are hoisted, not initializations or assignments.",
   },
   {
     id: 10,
-    question: "",
-    answer: "",
+    question:
+      "Explain the difference between synchronous and asynchronous functions",
+    answer:
+      "Synchronous functions execute in a blocking manner, meaning they pause the program's execution until they complete. Asynchronous functions, on the other hand, do not block and allow the program to continue running while they complete their tasks. They often use callbacks, promises, or async/await to manage their execution flow.",
   },
   {
     id: 11,
-    question: "",
-    answer: "",
+    question:
+      "What are the pros and cons of using Promises instead of callbacks?",
+    answer:
+      "**Pros of Promises:** 1. Improved readability and maintainability with cleaner code. 2. Better error handling through `.catch()` and `.finally()`. 3. Support for chaining multiple asynchronous operations.     **Cons of Promises:** 1. Slightly more complex syntax compared to simple callbacks. 2. Not supported in older browsers without polyfills or transpilation. 3. Potential for unhandled promise rejections if not properly handled.",
   },
   {
     id: 12,
-    question: "",
-    answer: "",
+    question: "What is a closure, and how/why would you use one?",
+    answer:
+      "A closure in JavaScript is a function that has access to its own scope, the outer function's scope, and the global scope. It 'closes over' variables from its outer scope, preserving them even after the outer function has finished executing. Closures are useful for creating private data, managing state, and implementing data encapsulation in JavaScript.",
   },
   {
     id: 13,
-    question: "",
-    answer: "",
+    question: "What is event loop?",
+    answer:
+      "The event loop is a fundamental concept in JavaScript that continuously checks the message queue for events or tasks to execute, allowing non-blocking asynchronous operations to run efficiently in the background while the main program remains responsive.",
   },
   {
     id: 14,
-    question: "",
-    answer: "",
+    question:
+      "What language constructions do you use for iterating over object properties and array items?",
+    answer:
+      "To iterate over object properties, you can use a `for...in` loop or `Object.keys()`, `Object.values()`, or `Object.entries()` methods.To iterate over array items, you can use a `for` loop, `forEach()`, `map()`, `filter()`, `reduce()`, or other array iteration methods provided by JavaScript.",
   },
   {
     id: 15,
-    question: "",
-    answer: "",
+    question: "What's a typical use case for anonymous functions?",
+    answer:
+      "A typical use case for anonymous functions (also known as lambda or inline functions) is when you need a small, one-time-use function for tasks like event handling, callbacks, or quick data transformations without defining a named function.",
   },
   {
     id: 16,
