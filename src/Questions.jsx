@@ -370,21 +370,130 @@ export const javaQAs = [
   },
   {
     id: 16,
-    question: "",
-    answer: "",
+    question:
+      "Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?",
+    answer:
+      "1. `function Person(){}` defines a constructor function for creating objects. 2. `var person = Person()` assigns the result of calling `Person` (if it returns something) to `person`, but it typically doesn't create a new object.3. `var person = new Person()` creates a new object using the `Person` constructor and assigns it to `person`.",
   },
   {
     id: 17,
-    question: "",
-    answer: "",
+    question: "Explain Ajax in as much detail as possible.",
+    answer:
+      "Ajax is a web development technique that enables web pages to communicate with servers without reloading the entire page, providing faster and more interactive user experiences. It uses JavaScript and asynchronous server requests to load or update content dynamically.",
   },
   {
     id: 18,
+    question: "Explain how JSONP works (and how it's not really Ajax)",
+    answer:
+      "JSONP uses a <script> tag to fetch data from another domain and execute it as a script, making it a workaround for cross-domain requests, but it's not a true Ajax method.",
+  },
+  {
+    id: 19,
+    question: "Explain the difference between mutable and immutable objects",
+    answer:
+      "Mutable objects can be changed after creation, while immutable objects cannot be modified once created. Changing a mutable object alters its state, while with immutables, you create a new object when you want to change it.",
+  },
+  {
+    id: 20,
+    question:
+      "Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`",
+    answer:
+      "In `function foo() {}`, `foo` is a function declaration and can be called anywhere in its scope. In `var foo = function() {}`, `foo` is a function expression assigned to a variable and can only be called after the assignment statement.",
+  },
+  {
+    id: 21,
+    question:
+      "Explain what a single page app is and how to make one SEO-friendly",
+    answer:
+      "A single-page app (SPA) is a web application that loads a single HTML page and dynamically updates content as the user interacts with it. To make an SPA SEO-friendly, use server-side rendering (SSR) or prerendering to generate HTML content for search engine bots, implement proper meta tags, use clean URLs, and provide a sitemap for search engines to crawl.",
+  },
+
+  {
+    id: 22,
+    question:
+      "What advantage is there for using the arrow syntax for a method in a constructor?",
+    answer:
+      "Using arrow syntax for a method in a constructor allows the method to inherit the enclosing context (`this`), ensuring that `this` inside the method refers to the instance of the object created by the constructor. This is particularly useful when defining methods in class constructors.",
+  },
+  {
+    id: 23,
+    question:
+      "What are the differences between ES2015 class and ES5 function constructors?",
+    answer:
+      "ES2015 classes provide a more structured and syntactically cleaner way to define constructor functions, inheritance, and methods compared to ES5 function constructors. Classes offer a more intuitive and modern approach to object-oriented programming in JavaScript.",
+  },
+
+  {
+    id: 24,
+    question: "What is the definition of a higher-order function?",
+    answer:
+      "A higher-order function is a function that takes one or more functions as arguments or returns a function as its result. It treats functions as first-class citizens, enabling advanced functional programming techniques like mapping, filtering, and composing functions.",
+  },
+  {
+    id: 25,
+    question: "What is `'use strict';`?",
+    answer:
+      "`'use strict';` is a pragma in JavaScript that enables strict mode, which enforces a stricter set of rules and better error handling. It helps catch common coding mistakes and prevents the use of certain error-prone features.",
+  },
+  {
+    id: 26,
+    question: "What's the difference between an 'attribute' and a 'property'?",
+    answer:
+      "An 'attribute' is a value in HTML markup, while a 'property' is a value in the DOM (Document Object Model) that represents the current state of an element. Attributes initialize properties, but properties can change due to user interactions or script actions.",
+  },
+  {
+    id: 27,
+    question:
+      "What's the difference between feature detection, feature inference, and using the UA string?",
+    answer:
+      "- **Feature Detection:** Checking if a specific feature is supported by the browser using JavaScript or similar methods. - **Feature Inference:** Assuming support for a feature based on the presence of another feature.",
+  },
+
+  {
+    id: 28,
+    question:
+      "Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?",
+    answer:
+      "Leaving the global scope untouched is a good practice to prevent conflicts, maintain code modularity, and avoid unintended side effects when multiple scripts are running on a webpage.",
+  },
+  {
+    id: 29,
+    question:
+      "Can you describe the main difference between a `.forEach` loop and a `.map()` loop?",
+    answer: "The main difference between `.forEach` and `.map()` is that `.forEach` is used for iterating over an array and executing a function for each item without creating a new array, while `.map()` creates a new array by applying a function to each item and returns the results.",
+  },
+  {
+    id: 30,
+    question: "Can you give an example of a curry function and why this syntax offers an advantage?",
+    answer: "",
+  },
+  {
+    id: 31,
     question: "",
     answer: "",
   },
   {
-    id: 19,
+    id: 32,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 33,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 34,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 35,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 36,
     question: "",
     answer: "",
   },
